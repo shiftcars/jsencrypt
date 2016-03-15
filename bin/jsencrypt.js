@@ -4322,3 +4322,6 @@ JSEncrypt.prototype.getPublicKeyB64 = function () {
 exports.JSEncrypt = JSEncrypt;
 })(JSEncryptExports);
 var JSEncrypt = JSEncryptExports.JSEncrypt;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = JSEncrypt;
+}
